@@ -11,10 +11,6 @@ export class HeaderComponent {
         private router: Router
     ) {}
 
-    onChatRoom() {
-        this.router.navigateByUrl('/dashboard/chat-room');
-    }
-
     onHome() {
         this.router.navigateByUrl('/dashboard');
     }
